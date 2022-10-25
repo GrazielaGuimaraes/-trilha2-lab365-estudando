@@ -25,7 +25,7 @@ function calculadora(tipo, valor) {
 			break
 
 
-			//remover ultimo valore do input (string)
+			//remover ultimo caracter do input (string)
 			case 'del':
 			tela.value = tela.value.slice(0, -1)
 			break
