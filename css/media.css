@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+/**********início calculadora*************/
+/*header*/
+
+header {
+	display: flex;
+	height: 100px;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: black;
+}
+
+header h1 {
+	color: white;
+}
+
+header nav ul {
+	display: flex;
+	list-style: none;
+}
+
+header nav ul li {
+	padding: 15px;
+}
+
+header nav ul li a {
+	text-decoration: none;
+	font-size: 1.2rem;
+	color: white;
+	transition: 0.4s;
+}
+
+header nav ul li a:hover {
+
+	color: mediumaquamarine;
+} 
+
+
+/*main*/
+
+main section {
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.calc-resto {
+	width:200px;
+	height: 200px;
+	background-color: black;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+
+.calc-media {
+	height: 300px;
+	width: 200px;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	padding: 15px;
+}
+
+.notas {
+	padding: 10px;
+}
+
+.btn {
+	padding: 10px;
+}
+
+.btn:hover {
+	background-color: beige;
+}
+
+#resultado-media{
+	color: white;
+	margin-top: 15px;
+}
+
+
+
+/*footer*/
+
+footer {
+	height: 100px;
+	background-color: black;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+footer p {
+	color: white;
+}
+
+footer div a {
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Calculadora #trilha2 Lab365</title>
+	<link rel="stylesheet" type="text/css" href="css/calculadora.css">
+</head>
+<body>
+
+
+
+		<header>
+			<h1>#Trilha2</h1>
+
+
+			<nav>
+				<ul>
+					<li>
+						<a href="#">Calculadora JS</a>
+					</li>
+
+					<li>
+						<a href="resto.html">Operador Resto</a>
+					</li>
+
+					<li>
+						<a href="media.html">Média Aluno</a>
+					</li>
+
+
+					<li>
+						<a href="imc.html">Cálculo Imc</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+
+		<main>
+			<section>
+
+				<h2>Calculadora JS</h2>
+				<div class="calculadora">
+
+
+					<div>
+					<input type="text" name="tela" id="tela" disabled='disabled' placeholder="0.0">
+				    </div>
+
+					<div>
+						<button class="btn" onclick="calculadora('numero', '0')">0</button>
+						<button class="btn" onclick="calculadora('numero', '1')">1</button>
+						<button class="btn" onclick="calculadora('numero', '2')">2</button>
+						<button class="btn" onclick="calculadora('op', '+')">+</button>
+					</div>
+
+					<div>
+						<button class="btn" onclick="calculadora('numero', '3')">3</button>
+						<button class="btn" onclick="calculadora('numero', '4')">4</button>
+						<button class="btn" onclick="calculadora('numero', '5')">5</button>
+						<button class="btn" onclick="calculadora('op', '-')">-</button>
+					</div>
+
+					<div>
+						<button class="btn" onclick="calculadora('numero', '6')">6</button>
+						<button class="btn" onclick="calculadora('numero', '7')">7</button>
+						<button class="btn" onclick="calculadora('numero', '8')">8</button>
+						<button class="btn" onclick="calculadora('op', '*')">*</button>
+					</div>
+
+					<div>
+						<button class="btn" onclick="calculadora('numero', '9')">9</button>
+						<button class="btn" onclick="calculadora('op', 'del')">del</button>
+						<button class="btn" onclick="calculadora('op', 'c')">C</button>
+						<button class="btn" onclick="calculadora('op', '/')">/</button>
+					</div>
+
+					<div>
+						<button class="btn total" onclick="calculadora('op', '=')">=</button>
+					</div>
+
+				</div> <!--fim calculadora--> 
+			</section>
+		</main>
+
+
+		<footer>
+			
+			<div>
+				<a href="https://www.linkedin.com/in/graziela-guimar%C3%A3es-a99b5a209/" target="_blank">Linkedin</a>
+				<a href="https://github.com/GrazielaGuimaraes" target="_blank">Github</a>
+			</div>
+
+			<p>Desenvolvido por Graziela Guimarães</p>
+		</footer>
+
+
+
+<script type="text/javascript" src="js/calculadora.js"></script>
+
+</body>
+</html>
