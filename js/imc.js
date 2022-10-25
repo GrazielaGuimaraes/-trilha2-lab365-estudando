@@ -22,7 +22,7 @@ else if (imc >= 17 && imc < 18){
 	document.getElementById('resultado-imc').textContent = 'Imc: ' + imc + ", abaixo do peso"
 }
 
-  else if (imc >= 18 && imc < 24.99){
+  else if (imc >= 18 && imc < 25){
 
   	 document.getElementById('resultado-imc').textContent = 'Imc: ' + imc + ", peso normal"
   }
