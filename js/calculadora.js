@@ -32,13 +32,14 @@ function calculadora(tipo, valor) {
 
 			//calcular todo conteúdo do input
 			case '=': 
+				/* VERIFICAR ESTA PARTE
 				if(tela.value = '' || tela.value == null || tela.value == undefined){
 					tela.value = ''
 					break
-				}  else {
+				}  else {*/
 			tela.value = eval(tela.value)
 			break
-				}
+				/*}*/
 
 
 
