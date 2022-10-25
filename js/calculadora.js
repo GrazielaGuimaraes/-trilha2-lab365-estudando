@@ -32,8 +32,9 @@ function calculadora(tipo, valor) {
 
 			//calcular todo conteúdo do input
 			case '=': 
-				if(tela.value = ''){
+				if(tela.value = '' || tela.value == null || tela.value == undefined){
 					tela.value = ''
+					break
 				}  else {
 			tela.value = eval(tela.value)
 			break
